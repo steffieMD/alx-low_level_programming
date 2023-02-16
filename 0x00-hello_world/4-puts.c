@@ -1,11 +1,15 @@
 #include <stdio.h>
-	/**
-	 * Main function.
-	 * Puts(prints out).
-	 * Return statement.
-	 */
-int main(void) 
+
+/**
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
+ * 
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	/* prints programming stuff*/
+	puts("/"Programming is like building a multilingual puzzle");
 	return (0);
 }
