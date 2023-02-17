@@ -6,7 +6,6 @@
  * main - Entry point
  * Description: Print lowercase alphabet backwards followed by a newline.
  * Return: Always 0 (Success)
- * Author: IanoNjuguna
  */
 
 int main(void)

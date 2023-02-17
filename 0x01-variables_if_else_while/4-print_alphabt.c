@@ -6,7 +6,6 @@
  * main - Entry point
  * Description: Print lowercase alphabet excluding e and q
  * Return: Always 0 (Success)
- * Author: IanoNjuguna
  */
 
 int main(void)

@@ -4,7 +4,6 @@
  *Description: Prints 3 combination of numbers
  *
  *Return: Always 0 (Success)
- *Author: IanoNjuguna
  */
 
 int main(void)
