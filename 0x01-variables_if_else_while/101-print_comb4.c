@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description:	Prints all possible combinations of three different digits,in ascending order.
+ * Description:	Prints all possible combinations.
  * Return: Always 0 (Success).
  */
 int main(void)
