@@ -10,6 +10,7 @@
 int main(void)
 {
 	char lc;
+	
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		if (lc != 'e' && lc != 'q')
