@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This repository is on C programming
+This directory covers Variables, if, else, while
