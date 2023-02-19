@@ -15,3 +15,4 @@ int main(void)
 		putchar(lowercase_alpha);
 	}
 	return(0);
+}
