@@ -8,15 +8,18 @@
  */
 int main (void)
 {
-	int lch, UCH;
+	char lch = 'a';
+	char UCH = 'A';
 
-	for (lch = 'a'; lch <= 'z'; lch++)
+	while (lch <= 'z')
 	{
-		for (UCH = 'A'; UCH <= 'Z'; UCH++)
-		{
-			putchar(lch);
-			putchar(UCH);
-		}
+		putchar(lch);
+		lch++;
+	}
+	while (UCH <= 'Z')
+	{
+		putchar(UCH);
+		UCH++;
 	}
 	putchar('\n');
 	return (0);
