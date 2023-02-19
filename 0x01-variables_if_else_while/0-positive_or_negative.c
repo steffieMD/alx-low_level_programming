@@ -4,8 +4,8 @@
 
 /**
  * main - Entry point
- * Description - 'This program will assign a random number to n'.
- * Return - Always 0
+ * Description: 'This program will assign a random number to n'.
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
