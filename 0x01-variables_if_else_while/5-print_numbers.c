@@ -2,7 +2,8 @@
 
 /**
  * main- Entry point
- * Description: this program prints all single digit numbers of base 10 starting from 0
+ * Description: this program prints all single digit numbers of base 10
+ * starting from 0
  * Return: Always 0 (Success)
  * Author: SteffieMD
  */
@@ -13,7 +14,8 @@ int main(void)
 
 	for (base10 = 0; base10 < 10; base10++)
 	{
-		printf("%d\n", base10);
+		printf("%d", base10);
 	}
+	printf("\n")
 	return (0);
 }
