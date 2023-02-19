@@ -13,7 +13,7 @@ int main (void)
 	for (lch = 'a', UCH = 'A'; lch <= 'z' && UCH <= 'Z'; lch++, UCH++)
 	{
 		putchar(lch);
-		puthcar(UCH);
+		putchar(UCH);
 	}
 	putchar('\n');
 	return (0);
