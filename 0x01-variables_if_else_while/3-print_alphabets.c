@@ -2,11 +2,12 @@
 
 /**
  * main - Entru point
- * Description: This program prints the alphabet in lowercase, and then in uppercase.
+ * Description: This program prints the alphabet in lowercase,
+ * and then in uppercase.
  * Return: Always 0 (Success)
  * Author: SteffieMD
  */
-int main (void)
+int main(void)
 {
 	char lch = 'a';
 	char UCH = 'A';
