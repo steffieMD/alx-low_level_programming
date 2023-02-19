@@ -9,17 +9,20 @@
 
 int main(void)
 {
-	int hex;
+	int x,y;
 
-	for (hex = 0; hex < 10; hex++)
+	for (x = 0; x < 9; x++)
 	{
-		putchar('0' + hex);
-		putchar('0' + hex);
-		if (hex < 9)
+		for (y = 0; y < 10; y++)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar('0' + x);
+			putchar('0' + y);
+
+			if (x == 8 && y == 9)
+			continue
 		}
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
