@@ -9,12 +9,15 @@
 
 int main(void)
 {
-	int num;
+	char hex;
 
-	for (num = 0; num <= 9; num++)
+	for (hex = 0; hex <= 9; hex++)
 	{
-		putchar('0' + num);
-		putchar('a' + num);
+		putchar('0' + hex);
+	}
+	for (hex = 'a'; hex <= 'f'; hex++)
+	{
+		putchar('a' + hex);
 	}
 	putchar('\n');
 	return 0;
