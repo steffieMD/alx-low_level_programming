@@ -14,8 +14,8 @@ int main(void)
 
 	for (base10 = 0; base10 < 10; base10++)
 	{
-		printf("%d", base10);
+		putchar(base10);
 	}
-	printf("\n");
+	printf('\n');
 	return (0);
 }
