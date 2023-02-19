@@ -16,7 +16,8 @@ int main(void)
 		putchar('0' + hex);
 		if (hex < 9)
 		{
-			putchar(', ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
