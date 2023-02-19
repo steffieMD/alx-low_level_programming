@@ -20,5 +20,5 @@ int main(void)
 		putchar(hex);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
