@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- *
+ * @c: Contains value to be compared
  * Return: Always 0
  */
 
