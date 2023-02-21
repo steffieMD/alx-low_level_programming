@@ -8,15 +8,15 @@
 
 int _islower(int c)
 {
-	char s;
+	char c;
 
-	if (_islower(s))
+	if (_islower(c))
 	{
-		_putchar('1' + s);
+		_putchar('1' + c);
 	}
 	else
 	{
-		_putchar('0' + s);
+		_putchar('0' + c);
 	}
 	
 	_putchar('\n');
