@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - ENtry point
+ * _isalpha - Return 1 if @c is a letter, lowercase or uppercase
  * @c: Contains value to be compared
  * Return - ALways 0
  * Author: STeffieMD
