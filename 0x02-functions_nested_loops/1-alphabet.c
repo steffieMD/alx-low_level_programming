@@ -3,7 +3,7 @@
 
 /**
  * print_alphabet - Entry point
- * Description: This program prints the alphabet, in lowercase, followed by a new line. 
+ * Description: This program prints the alphabet, in lowercase
  * Return: Always 0 (Success)
  * Author: SteffieMD
  */
@@ -16,6 +16,7 @@ void print_alphabet(void)
 	{
 		_putchar(alphabet);
 	}
+
 	_putchar('\n');
 }
 
