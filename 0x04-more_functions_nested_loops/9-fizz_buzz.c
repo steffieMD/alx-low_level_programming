@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
-  *Return: Always 0.
-  */
+* main - Entry point
+* Return: void
+*/
 
 int main(void)
 {
@@ -27,4 +27,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+printf('\n');
+return (0);
 }
