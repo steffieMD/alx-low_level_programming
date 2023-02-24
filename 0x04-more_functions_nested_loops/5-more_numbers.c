@@ -15,8 +15,6 @@ void more_numbers(void)
 	{
 		for (j = 0; j < 15; j++)
 		{
-			first_number = j / 10;
-			second_number = j % 10;
 			if (j < 10)
 			{
 				second_number = j;
@@ -24,6 +22,8 @@ void more_numbers(void)
 			}
 			else
 			{
+				first_number = j / 10;
+				second_number = j % 10;
 				_putchar(first_number + '0');
 			}
 		_putchar(second_number + '0');
