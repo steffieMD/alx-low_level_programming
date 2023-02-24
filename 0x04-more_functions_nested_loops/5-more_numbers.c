@@ -6,8 +6,10 @@
 
 void more_numbers(void)
 {
-	int i, j;
-	int first_number, second_number;
+	int i;
+	int j;
+	int first_number;
+	int second_number;
 
 	for (i = 0; i < 11; i++)
 	{
@@ -17,7 +19,8 @@ void more_numbers(void)
 			second_number = j % 10;
 			if (j < 10)
 			{
-				second_number = j
+				second_number = j;
+
 			}
 			else
 			{
