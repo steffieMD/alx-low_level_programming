@@ -20,14 +20,14 @@ void more_numbers(void)
 			second_number = j % 10;
 			if (j < 10)
 			{
-				second_number = j;
+				second_number = j
 			}
 			else
 			{
 				putchar(first_number + '0');
-				putchar(second_number + '0');
 			}
+		putchar(second_number + '0');
 		}
-		putchar('\n');
+	putchar('\n');
 	}
 }
