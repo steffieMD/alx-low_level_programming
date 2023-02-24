@@ -21,10 +21,10 @@ void more_numbers(void)
 			}
 			else
 			{
-				putchar(first_number + '0');
+				_putchar(first_number + '0');
 			}
-		putchar(second_number + '0');
+		_putchar(second_number + '0');
 		}
-	putchar('\n');
+	_putchar('\n');
 	}
 }
