@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * more_numbers - prints more numbers
  * Retuen: Always 0
