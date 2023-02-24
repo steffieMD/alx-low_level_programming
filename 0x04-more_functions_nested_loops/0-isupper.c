@@ -8,5 +8,6 @@
  */
 int _isupper(int c)
 {
+	int c;
 	return (int c);
 }
