@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * more_numbers - prints more numbers
- * Retuen: Always 0
+ * Return: Always 0
  */
 
 void more_numbers(void)
