@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isdigit - if its a digit
- *@c: prints the integer
- * Return: Always 0
+ * _isdigit - if is a digit
+ *@c: print int
+ * Return: Always 0.
  */
 
 int _isdigit(int c)
@@ -11,6 +11,7 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
+
 	else
 	{
 		return (0);
