@@ -9,9 +9,6 @@ void more_numbers(void)
 	int i, j;
 	int first_number, second_number;
 
-	first_number = j / 10;
-	second_number = j % 10;
-
 	for (i = 0; i < 11; i++)
 	{
 		for (j = 0; j < 15; j++)
