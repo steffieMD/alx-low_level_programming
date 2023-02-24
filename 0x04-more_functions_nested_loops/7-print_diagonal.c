@@ -18,19 +18,19 @@ void print_diagonal(int n)
 			{
 				if (j == i)
 				{
-					putchar(92);
+					_putchar(92);
 				}
 				else
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	return (0);
 }
