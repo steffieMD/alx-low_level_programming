@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
-* main - Entry point
-* Return: void
-*/
-
+  *main - entry point
+  *Return: 0 always
+  */
 int main(void)
 {
-	int p;
+	int a = 100;
 	int i;
 
-	for (i = 1; i <= p; i++)
+		i = 1;
+	while (i <= a)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -21,18 +21,17 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
-			if (i < p)
-			{
-				printf("Buzz ");
-			}
+			if (i < a)
+			printf("Buzz ");
 			else
-				printf("Buzz");
+			printf("Buzz");
 		}
 		else
 		{
 			printf("%i ", i);
 		}
+		i++;
 	}
-printf('\n');
-return (0);
+	printf("\n");
+	return (0);
 }
