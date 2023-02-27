@@ -1,1 +1,1 @@
-This directory covers Variables, if, else, while
+This directory contains C - Pointers, arrays and strings
