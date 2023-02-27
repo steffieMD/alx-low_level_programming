@@ -10,7 +10,5 @@
 
 void _puts(char *str)
 {
-       int s = puts(str);
-
-	printf("%d", s);
+	printf("%s\n", str);
 }
