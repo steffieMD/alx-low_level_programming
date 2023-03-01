@@ -2,7 +2,7 @@
 
 /**
  * *string_toupper - changes all lowercase letters of a string to uppercase
- * @n: a pointer
+ * @s: a pointer
  * Return: Always 0
  */
 
@@ -17,5 +17,5 @@ char *string_toupper(char *s)
 			s[i] = s[i] - 32;
 		}
 	}
-	return(s);
+	return (s);
 }
