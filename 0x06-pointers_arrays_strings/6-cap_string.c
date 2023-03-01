@@ -20,6 +20,21 @@ char *cap_string(char *s)
 			}
 			continue;
 		}
+		switch (s[i])
+		{
+			case ',':
+			case ';':
+			case '.':
+			case '!':
+			case '?':
+			case '"':
+			case '(':
+			case ')':
+			case '{':
+			case '}':
+			case ' ':
+			case '\n':
+			case '\t':
 		if (s[i] == ' ')
 		{
 			++i;
@@ -35,6 +50,7 @@ char *cap_string(char *s)
 			{
 				s[i] = s[i] + 32;
 			}
+		}
 		}
 	}
 	return (s);
