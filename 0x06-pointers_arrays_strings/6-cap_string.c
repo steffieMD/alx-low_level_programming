@@ -19,24 +19,6 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			}
 			continue;
-		}
-		switch (s[i])
-		{
-			case ',':
-			case ';':
-			case '.':
-			case '!':
-			case '?':
-			case '"':
-			case '(':
-			case ')':
-			case '{':
-			case '}':
-			case ' ':
-			case '\n':
-			case '\t':
-		if (s[i] == ' ')
-		{
 			++i;
 			if (s[i] >= 'a' && s[i] <= 'z')
 			{
@@ -50,7 +32,6 @@ char *cap_string(char *s)
 			{
 				s[i] = s[i] + 32;
 			}
-		}
 		}
 	}
 	return (s);
