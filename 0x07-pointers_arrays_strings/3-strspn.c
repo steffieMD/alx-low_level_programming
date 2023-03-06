@@ -11,7 +11,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	long unsigned int *len;
+	size_t *len;
 
 	len = strspn(s, accept);
 
