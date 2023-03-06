@@ -6,6 +6,7 @@
  * of a square matrix of intergers.
  * @a: pointer to the 2D array
  * @size: size x size of square matrix
+ * Return: void.
  */
 
 void print_diagsums(int *a, int size)
