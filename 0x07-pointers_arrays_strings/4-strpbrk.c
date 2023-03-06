@@ -15,14 +15,5 @@ char *_strpbrk(char *s, char *accept)
 
 	ser = strpbrk(s, accept);
 
-	if (ser)
-	{
-		return (ser);
-	}
-	else
-	{
-		printf("NULL");
-	}
+	return (ser);
 }
-
-
