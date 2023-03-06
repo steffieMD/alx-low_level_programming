@@ -4,14 +4,13 @@
 /**
  * void print_diagsums - prints sum of the two diagonals
  * of a square matrix of intergers.
- * @a: pointer to the array
- * @size: size of column
+ * @a: pointer to the 2D array
+ * @size: size x size of square matrix
  */
 
 void print_diagsums(int *a, int size)
 {
 	int i;
-	int j;
 	int pry = 0;
 	int sec = 0;
 	int s = size * size;
