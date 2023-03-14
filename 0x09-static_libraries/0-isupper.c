@@ -1,21 +1,12 @@
 #include "main.h"
-
-/**
- * _isupper - checks whether uppercase or not
- * @c: string
- * Return: 0 or 1
- */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
 int _isupper(int c)
 {
-	int i;
-
-	if (i >= 'A' && i <= 'Z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+    return (c >= 'A' && c <= 'Z');
 }
+
+
