@@ -1,1 +1,1 @@
-This directory contains The Project: C - Static Libraries
+This directory contains the project C - Static LIbraries
