@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
+/* atoi converts a string to an int*/
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 
