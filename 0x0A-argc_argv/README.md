@@ -1,1 +1,1 @@
-This directory contains the project C- argc, argv
+This directory contains the project C- programming : ARGC and ARGV
