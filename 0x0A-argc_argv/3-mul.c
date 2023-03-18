@@ -11,7 +11,6 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
 	int result;
 	int num1, num2;
 
