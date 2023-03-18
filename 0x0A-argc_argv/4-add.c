@@ -1,33 +1,58 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
-#include "main.h"
-#include <ctype.h>
+
 /**
- * main - adds positive numbers
- * argc: number of vectors
- * argv: array
+ * is_num - checks if a number or not
+ * @a: char to be checked
  * Return: 0 or 1
  */
 
-int main(int argc, char *argv[])
+int is_num(char *a)
+{
+	int i, num, len;
+
+	i = 0;
+	num = 0;
+	len = strlen(a);
+
+	while (i < len)
+	{
+		if (a[i] < '0' || a[i] > '9')
+		{
+			return (-1);
+		}
+		else
+			num = num * 10 + (a[i] - '0');
+		i++;
+	}
+	return (num);
+}
+
+/**
+ * main - adds positive numbers
+ * @argc: no. of arguments
+ * @argv: array
+ * Return: 0 or 1 or value of add
+ */
+
+int main (int argc, char *argv[])
 {
 	int i;
+	int num;
 	int sum = 0;
 
-	if (argc < 1)
+	for (i = 1; i < argc; i++)
 	{
-		printf("0");
-	}
-	for (i = 0; i < argc; i++)
-	{
-		if (isdigit(argv[i]) == 1)
+		num = is_num(argv[i]);
+		if (num == -1)
 		{
 			printf("Error\n");
 			return (1);
 		}
 		sum += atoi(argv[i]);
 	}
-	printf("%d\n", sum); 
+	printf("%d\n", sum);
 	return (0);
 }
-
+				
