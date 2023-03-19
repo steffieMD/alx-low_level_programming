@@ -8,26 +8,38 @@
  * @height: height of the array
  * Return: NULL or pointer to 2D array
  */
-
 int **alloc_grid(int width, int height)
 {
-	int **arr;
-	int i, j;
+	int **mee;
+	int x, y;
 
-	if (width <= 0 || height <= 0 || arr == NULL)
-	{
+	if (width <= 0 || height <= 0)
 		return (NULL);
-	}
 
-	arr = malloc(sizeof(char) * width * height);
+	mee = malloc(sizeof(int *) * height);
 
-	for (i = 1; i < width; i++)
+	if (mee == NULL)
+		return (NULL);
+
+	for (x = 0; x < height; x++)
 	{
-		for (j = 1; j < height; j++)
+		mee[x] = malloc(sizeof(int) * width);
+
+		if (mee[x] == NULL)
 		{
-			printf("%d ", arr[i][j]);
+			for (; x >= 0; x--)
+				free(mee[x]);
+
+			free(mee);
+			return (NULL);
 		}
-		printf("\n");
 	}
-	return (0);
+
+	for (x = 0; x < height; x++)
+	{
+		for (y = 0; y < width; y++)
+			mee[x][y] = 0;
+	}
+
+	return (mee);
 }
