@@ -21,9 +21,11 @@ char *_strdup(char *str)
 	}
 
 	dest_str = malloc(sizeof(char));
+	
+	if (str != '\0')
+	{
+		dest_str = strdup(str);
+	}
 
-	dest_str = strdup(str);
-
-	free(dest_str);
 	return (dest_str);
 }
