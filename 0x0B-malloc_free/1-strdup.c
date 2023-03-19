@@ -20,8 +20,8 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	dest_str = malloc(sizeof(char));
-	
+	dest_str = malloc(sizeof(char) - 1);
+
 	if (*str != '\0')
 	{
 		dest_str = strdup(str);
