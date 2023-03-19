@@ -4,8 +4,8 @@
 
 /**
  * *str_concat - concatenates two strings.
- * s1: pointer to first string
- * s2: pointer to second string
+ * @s1: pointer to first string
+ * @s2: pointer to second string
  * Return: pointer to space in memory or NULL
  */
 char *str_concat(char *s1, char *s2)
